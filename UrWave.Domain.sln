@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrWave.Domain", "UrWave.Domain\UrWave.Domain.csproj", "{70EC6B31-2CCE-4988-81B5-09E974DC314E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrWave.Application", "UrWave.Application\UrWave.Application.csproj", "{B3BD5B37-2852-4FE1-A549-021D3D46C6CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrWave.Infrastructure", "UrWave.Infrastructure\UrWave.Infrastructure.csproj", "{142CF646-FD22-438B-ABEB-B7ED41A4176D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrWave.Api", "UrWave.Api\UrWave.Api.csproj", "{352EFEF5-6472-42BB-88B9-D1989F42BA6B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{DD9D0E97-0860-41A2-AD6F-095AD6BA3E8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrWave.UnitTest", "UrWave.UnitTest\UrWave.UnitTest.csproj", "{2E662AF8-322F-4328-AF8C-33DFEF8A3F19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrWave.FunctionalTest", "UrWave.FunctionalTest\UrWave.FunctionalTest.csproj", "{4F467A52-7D14-4253-A254-443045AF9D67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70EC6B31-2CCE-4988-81B5-09E974DC314E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70EC6B31-2CCE-4988-81B5-09E974DC314E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70EC6B31-2CCE-4988-81B5-09E974DC314E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70EC6B31-2CCE-4988-81B5-09E974DC314E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3BD5B37-2852-4FE1-A549-021D3D46C6CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3BD5B37-2852-4FE1-A549-021D3D46C6CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3BD5B37-2852-4FE1-A549-021D3D46C6CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3BD5B37-2852-4FE1-A549-021D3D46C6CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{142CF646-FD22-438B-ABEB-B7ED41A4176D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{142CF646-FD22-438B-ABEB-B7ED41A4176D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{142CF646-FD22-438B-ABEB-B7ED41A4176D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{142CF646-FD22-438B-ABEB-B7ED41A4176D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{352EFEF5-6472-42BB-88B9-D1989F42BA6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{352EFEF5-6472-42BB-88B9-D1989F42BA6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{352EFEF5-6472-42BB-88B9-D1989F42BA6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{352EFEF5-6472-42BB-88B9-D1989F42BA6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E662AF8-322F-4328-AF8C-33DFEF8A3F19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E662AF8-322F-4328-AF8C-33DFEF8A3F19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E662AF8-322F-4328-AF8C-33DFEF8A3F19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E662AF8-322F-4328-AF8C-33DFEF8A3F19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F467A52-7D14-4253-A254-443045AF9D67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F467A52-7D14-4253-A254-443045AF9D67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F467A52-7D14-4253-A254-443045AF9D67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F467A52-7D14-4253-A254-443045AF9D67}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2E662AF8-322F-4328-AF8C-33DFEF8A3F19} = {DD9D0E97-0860-41A2-AD6F-095AD6BA3E8E}
+		{4F467A52-7D14-4253-A254-443045AF9D67} = {DD9D0E97-0860-41A2-AD6F-095AD6BA3E8E}
+	EndGlobalSection
+EndGlobal
